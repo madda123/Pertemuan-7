@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Mahasiswa (jQuery + PHP + MySQL)</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <h2>Data Mahasiswa</h2>
+
+  <div class="form">
+    <input type="text" id="nama" placeholder="Nama">
+    <input type="text" id="nim" placeholder="NIM">
+    <input type="text" id="jurusan" placeholder="Jurusan">
+    <button id="addBtn">Tambah</button>
+  </div>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>ID</th><th>Nama</th><th>NIM</th><th>Jurusan</th><th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody id="dataList"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

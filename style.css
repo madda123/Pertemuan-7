@@ -1,0 +1,6 @@
+body { font-family: Arial; padding: 20px; }
+h2 { color: #333; }
+input { padding: 5px; margin-right: 5px; }
+button { padding: 6px 10px; cursor: pointer; }
+table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+th, td { padding: 8px; text-align: left; }
